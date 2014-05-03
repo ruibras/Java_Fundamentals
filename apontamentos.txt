@@ -1,5 +1,10 @@
 formação JAVA Fundamentals
 Laura Santos ISEL 960266373
+links
+https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore
+https://github.com/github/gitignore/tree/master/Global
+http://git-scm.com/downloads
+https://ninite.com/
 
 Applet ( Entrega declaraçãoes IRS)
 
@@ -374,3 +379,9 @@ To https://github.com/ruibras/Java_Fundamentals.git
 
 C:\Users\Training Center\repository>
 ***********************
+--depois de cada alteraçcao
+git commit -am"first commit"
+git push
+
+--para voltar a uma versão anterior
+ git checkout  (com o nome ou hash)
