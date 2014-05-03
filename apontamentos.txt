@@ -5,6 +5,9 @@ Applet ( Entrega declaraçãoes IRS)
 
 JRE Java runtime envoirement
 
+evoirement variables
+%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_51\bin;C:\Program Files (x86)\Git\bin
+*******
 c:\windows\path 
 
 
@@ -70,7 +73,11 @@ ore details.
 
 
 
-********
+****************************************************************
+
+
+compilar por linha de comandos 
+
 Microsoft Windows [Version 6.3.9600]
 (c) 2013 Microsoft Corporation. All rights reserved.
 
@@ -115,3 +122,255 @@ C:\Users\Training Center\repository\HelloWorld\src>
 Git  Hub
 https://github.com/
 https://github.com/github/gitignore/blob/master/Java.gitignore
+
+***************************************************
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+C:\Windows\System32>gitini
+'gitini' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\System32>git
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+The most commonly used git commands are:
+   add        Add file contents to the index
+   bisect     Find by binary search the change that introduced a bug
+   branch     List, create, or delete branches
+   checkout   Checkout a branch or paths to the working tree
+   clone      Clone a repository into a new directory
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   fetch      Download objects and refs from another repository
+   grep       Print lines matching a pattern
+   init       Create an empty Git repository or reinitialize an existing one
+   log        Show commit logs
+   merge      Join two or more development histories together
+   mv         Move or rename a file, a directory, or a symlink
+   pull       Fetch from and integrate with another repository or a local branch
+
+   push       Update remote refs along with associated objects
+   rebase     Forward-port local commits to the updated upstream head
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+   show       Show various types of objects
+   status     Show the working tree status
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+'git help -a' and 'git help -g' lists available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+
+C:\Windows\System32>git init
+Initialized empty Git repository in C:/Windows/System32/.git/
+
+C:\Windows\System32>cd..
+
+C:\Windows>cd C:\Users\Training Center\repository
+
+C:\Users\Training Center\repository>git init
+Reinitialized existing Git repository in C:/Users/Training Center/repository/.gi
+t/
+
+C:\Users\Training Center\repository>view
+'view' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Training Center\repository>git --add
+Unknown option: --add
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+C:\Users\Training Center\repository>git add --all
+
+C:\Users\Training Center\repository>git commit -am"first commit"
+[master (root-commit) bab0efe] first commit
+ 8 files changed, 206 insertions(+)
+ create mode 100644 HelloWorld/.classpath
+ create mode 100644 HelloWorld/.project
+ create mode 100644 HelloWorld/.settings/org.eclipse.jdt.core.prefs
+ create mode 100644 HelloWorld/bin/Main.class
+ create mode 100644 HelloWorld/src/Main.class
+ create mode 100644 HelloWorld/src/Main.java
+ create mode 100644 apontamentos.txt
+ create mode 100644 gitignore
+
+C:\Users\Training Center\repository>git log
+WARNING: terminal is not fully functional
+commit bab0efe9a6650b7563ba44042b3e5841057174dd
+Author: ruibras <ruixmxbras@gmail.com>
+Date:   Sat May 3 12:40:28 2014 +0100
+
+    first commit
+
+C:\Users\Training Center\repository>git remote add origin https://github.com/rui
+bras/Java_Fundamentals.git
+
+C:\Users\Training Center\repository>git push -set-upstream origin master
+error: did you mean `--set-upstream` (with two dashes ?)
+
+C:\Users\Training Center\repository>git push --set--upstream origin master
+error: unknown option `set--upstream'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --repo <repository>   repository
+    --all                 push all refs
+    --mirror              mirror all refs
+    --delete              delete refs
+    --tags                push tags (can't be used with --all or --mirror)
+    -n, --dry-run         dry run
+    --porcelain           machine-readable output
+    -f, --force           force updates
+    --force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --recurse-submodules[=<check>]
+                          control recursive pushing of submodules
+    --thin                use thin pack
+    --receive-pack <receive-pack>
+                          receive pack program
+    --exec <receive-pack>
+                          receive pack program
+    -u, --set-upstream    set upstream for git pull/status
+    --progress            force progress reporting
+    --prune               prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --follow-tags         push missing but relevant tags
+
+
+C:\Users\Training Center\repository>git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': ruibras
+Password for 'https://ruibras@github.com':
+To https://github.com/ruibras/Java_Fundamentals.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/ruibras/Java_Fundamentals
+.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\Training Center\repository>git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': ruibras
+Password for 'https://ruibras@github.com':
+To https://github.com/ruibras/Java_Fundamentals.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/ruibras/Java_Fundamentals
+.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\Training Center\repository>git pull
+warning: no common commits
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0)
+Unpacking objects: 100% (3/3), done.
+From https://github.com/ruibras/Java_Fundamentals
+ * [new branch]      master     -> origin/master
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+
+C:\Users\Training Center\repository>git pull origin master
+From https://github.com/ruibras/Java_Fundamentals
+ * branch            master     -> FETCH_HEAD
+Merge made by the 'recursive' strategy.
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 README.md
+
+C:\Users\Training Center\repository>git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': ruibras
+Password for 'https://ruibras@github.com':
+Counting objects: 17, done.
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (16/16), 3.93 KiB | 0 bytes/s, done.
+Total 16 (delta 1), reused 0 (delta 0)
+To https://github.com/ruibras/Java_Fundamentals.git
+   eedaa96..181fb9e  master -> master
+
+C:\Users\Training Center\repository>
+***********************
