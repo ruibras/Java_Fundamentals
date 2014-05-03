@@ -385,3 +385,8 @@ git push
 
 --para voltar a uma versão anterior
  git checkout  (com o nome ou hash)
+ 
+ --em casa
+ branch copiar o links
+ git clone links
+ 
