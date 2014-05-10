@@ -390,3 +390,34 @@ git push
  branch copiar o links
  git clone links
  
+ 
+ **************************************************
+ 
+ Aula 2
+ 
+ cilcos for
+ ----
+ 
+ Object Oriented
+ 
+ class != Object
+ 
+ Objecto é uma instancia de uma class
+ operacoes = comportamentos  ouse ja metodos
+ ----- 
+ aplicação para ver jogos e resultados
+ 
+  
+ adicionar equipa no campeaonato
+ criar jogo num campeonato
+ registar resultado do jogo
+  quantos jogos faltam jogar
+ calcular a equipa com mais golos
+  
+ 
+ 
+ saber o que é assinatura do metodos( se é overload)
+ 
+ Games[]  gamestoplay()
+ 
+ 
