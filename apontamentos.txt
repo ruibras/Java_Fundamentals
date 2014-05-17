@@ -1,4 +1,4 @@
-formação JAVA Fundamentals
+﻿formação JAVA Fundamentals
 Laura Santos ISEL 960266373
 links
 https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore
@@ -419,5 +419,73 @@ git push
  saber o que é assinatura do metodos( se é overload)
  
  Games[]  gamestoplay()
+boolean por defeito false
  
+******************************************************
+
+aula 3
+
+Championsship
+team[]
+games[]
+POntuações
+add team
+addgame
+savegamescore
+gamestoplay
+
+
+struturing classes
+
+public class xpto {
+
+public static int x=0;
+
+w.x=5
+y.x=5
+xpto w= new xpto();
+
+xpto Y=new xpto();
+
+quando se define uma variavel como static é valida na class, se for altera num metodo esse valor é valido para outras classes.
+
+
+*****
+promocao de variaveis
+
+quando
+int (32) x=0.0 dá erro
+double (64)  y=0  ele promove para 0.0
+
+LONG X= 0.0 ;
+LONG X=(LONG) 0.0;
+
+
+
+
+INT X=1/3
+
+
+int j=50;
+char i =(char)j;    sop (i)=2 resultado do numero ascii 50
+------------
+char(16) c ='U';
+int(32) x=c: sop(x) u 117 U 85
+
+byte-8
+short-16
+int-32
+long-64
+
+float -32
+double - 64
+
+char - 16
+boolean  - 1?????
+
+
+
+
+
+
  
