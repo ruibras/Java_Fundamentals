@@ -474,18 +474,100 @@ int(32) x=c: sop(x) u 117 U 85
 
 byte-8
 short-16
-int-32
-long-64
+int-32   é integral   sem vigulas
+long-64  é integral   sem virgulas
 
-float -32
-double - 64
+float -32 n é inegral    com virgula flutoante
+double - 64  n é inegral   com virgula flutoante
 
 char - 16
 boolean  - 1?????
 
 
+**********************************
+
+aula 4
+
+o float e double não são precisos 100%
+
+float 3 pode ser 2.99999999999999
 
 
+
+i++  incremento
+
+--  decremento
+
+i++ post increment
+++i pre-incremnet
+
+int age=10, yourage=15;
+age=age+1
+yourage=age++
+yourage=++age;
+
+
+int count=15;
+int a,b,c,d =0
+              count    a   b  c   d
+a=count++;      16    15   0  0   0
+b= count;       16    15   16 17   0
+d=count         17    15   16 17   17
+
+
+int i = 15 j =10
+
+a = i++ +j   a=25,i=16,j=10
+a=i+ ++j    a=26 ,i=15, j=11
+
+a =(i++) +i  a=31 i=16
+
+a= i +(++i)  a=32  i=16  
+
+int a =(i++) + i; 31
+
+int b= i+(++i)    31
+
+int aa= i +(i++)   30
+
+int bb=(++i) +i   32
+
+
+		System.out.println(i+++1+j+++--j);
+15+1+10+10
+i=16
+j=11
+j=10
+
+i/j*j++=15    i=16
+
+i/(j*j++)  15/100  =
+
+
+30'0 :20
+10 0 1.5
+0
+
+******
+int m1=Integer.MAX_VALUE;
+int m2=Integer.MAX_VALUE;
+int m3;
+m2=m2+1;
+m3=(m1+m2);
+
+System.out.println("m3"+m3);
+****
+
+float f =10.5
+
+float f =10.5f
+
+
+
+conversoes tem de ter o mesmo tamanho int 32  float 32
+
+
+ou double 64 e long 64
 
 
  

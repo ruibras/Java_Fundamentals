@@ -10,6 +10,16 @@ public class Main {
 			
 		}*/
 		
+		int age=10,yourage=15;
+		int i=15,j=10;
+		System.out.println(i+++1+j+++--j);
+		System.out.println(i);
+		System.out.println(j);
+		//yourage=age++;
+		yourage=++age;
+		System.out.println("yourage"+yourage);
+		System.out.println("age"+age);
+		
 		int x =1/5;
 		System.out.println(x);
 		
@@ -20,8 +30,27 @@ public class Main {
 		char z =2;
 		System.out.println(z);
 
+int m1=Integer.MAX_VALUE;
+int m2=Integer.MAX_VALUE;
+int m3;
+m2=m2+1;
+m3= (m1+m2);
 
-		
+//m3=(byte) (m1+m2);
+System.out.println("m3"+m3);
+
+//float f1 =10.5;
+//type mismatch: cannot convert from double to float
+float f2 =10.5f;		
+
+float f = Integer.MAX_VALUE;
+System.out.println(f);
+float f1=5.5f;
+int j1 = (int) f1;
+System.out.println (j1);
+
+
+
 	}
 }
 
