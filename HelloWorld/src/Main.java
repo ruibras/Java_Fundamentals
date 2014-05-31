@@ -10,7 +10,7 @@ public class Main {
 			
 		}*/
 		
-		int age=10,yourage=15;
+/*		int age=10,yourage=15;
 		int i=15,j=10;
 		System.out.println(i+++1+j+++--j);
 		System.out.println(i);
@@ -47,11 +47,34 @@ float f = Integer.MAX_VALUE;
 System.out.println(f);
 float f1=5.5f;
 int j1 = (int) f1;
-System.out.println (j1);
+System.out.println (j1);*/
+		
+		String s ="Pedro";
+		String s1="Pedro";
+		
+		System.out.println("same adress " + s==s1);
+		System.out.println("same adress " + s.equals(s1));
+
+Shirt sh1 = new Shirt();
+Shirt sh2 = new Shirt();
+
+System.out.println(sh1);
+System.out.println(sh2);
+
+
+/*****************/
+
+StringBuilder mySB =new StringBuilder("Hello");
+StringBuilder b1=b;
+b.append("!");
+
+System.out.println(b==b1);
 
 
 
 	}
 }
+
+
 
 

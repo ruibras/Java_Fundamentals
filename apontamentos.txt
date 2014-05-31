@@ -1,4 +1,8 @@
 ﻿formação JAVA Fundamentals
+
+1z0-803
+1z0-804
+
 Laura Santos ISEL 960266373
 links
 https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore
@@ -569,5 +573,50 @@ conversoes tem de ter o mesmo tamanho int 32  float 32
 
 ou double 64 e long 64
 
+*******************************
+aula 5  Working with References
 
- 
+31_5_2014 
+
+pointer---
+
+reference ---
+
+*****************************
+Shirt myShirt = new Shirt;
+(Declaração)     (Instanciação)
+myShirt.display();
+
+
+em java não há passagem por referencia , existe copia do valor.
+
+polimorfismos
+
+Shirt s1;
+s1=s;
+
+s.changecolor('Y')
+
+s1.color (tem a mesma cor de s)
+
+
+s ---> ox...(memoria)--->Shirt
+s1---> ox...(memoria)--->Shirt
+
+S1=null S1 perde a referencia aShirt
+
+1z0-803
+1z0-804
+
+ "Hello" é uma String não é uma cadeia de carcteres 
+
+exemplo do elevador goup e goDown
+
+*******
+int i=2;
+if (i<1 && ()))
+
+sop(i)
+
+if (i>1 ||(i++>3)
+		sop i
