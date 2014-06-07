@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -49,31 +51,106 @@ float f1=5.5f;
 int j1 = (int) f1;
 System.out.println (j1);*/
 		
-		String s ="Pedro";
+/*		String s ="Pedro";
 		String s1="Pedro";
 		
 		System.out.println("same adress " + s==s1);
-		System.out.println("same adress " + s.equals(s1));
-
+		System.out.println("same adress " + s.equals(s1));*/
+/*
 Shirt sh1 = new Shirt();
 Shirt sh2 = new Shirt();
 
 System.out.println(sh1);
-System.out.println(sh2);
+System.out.println(sh2);*/
 
 
 /*****************/
 
-StringBuilder mySB =new StringBuilder("Hello");
-StringBuilder b1=b;
-b.append("!");
+//StringBuilder mySB =new StringBuilder("Hello");
+//StringBuilder b1=b;
+//b.append("!");
 
-System.out.println(b==b1);
+//System.out.println(b==b1);
 
+
+int [][] matrix = new int [4][4];
+		
+		matrix [0]= new int [1];
+		matrix [1]= new int [2];
+		matrix [2]= new int [3];
+		matrix [3]= new int [2];
+		
+		/*
+		   for (int i = 0; i <matrix.length; i++)
+		   {
+			  
+		      for (int j = 0; j < matrix[i].length; j++)
+		      {
+		    
+		      }
+		   }
+		
+		
+		for(int i = 0; i < matrix.length; i++)
+		   {
+		      for(int j = 0; j <  matrix[i].length; j++)
+		      {
+		         System.out.printf("%5d ", matrix[i][j]);
+		      }
+		      System.out.println();
+		   }
+		}
+
+*/
+		/*********************************************************************/
+	/*	int i = 0;
+		int j = 0;
+		
+		
+		 while (i < matrix.length)  
+		   {
+			  
+			 while (j < matrix.length)
+		      {
+				 	matrix [i] [j] =1;    //			 System.out.printf("%5d ", matrix[i][j]);
+				 j=j++;
+		      }
+		   
+		 i=i++;
+		
+	
+	
+
+		 while (i < matrix.length)  
+		   {
+			  
+			 while (j < matrix.length)
+		      {
+				 System.out.printf("%5d ", matrix[i][j]);
+				 j=j++;
+		      }
+		   
+		 i=i++;
+		
+		   }
+		}
+*/
+/****************************************/
+
+
+int i;
+char c;
+
+for (i=0,c='A'){
+	
+}
+}
 
 
 	}
-}
+	}
+
+
 
 
 

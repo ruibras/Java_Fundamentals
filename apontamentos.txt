@@ -620,3 +620,25 @@ sop(i)
 
 if (i>1 ||(i++>3)
 		sop i
+
+		
+*********************************************
+
+aula 6
+
+7-6-2014 
+Stack heap
+array de shirts ver exemplo PDF
+
+ shirt [1]=	shirt[2]
+
+ não existe passagem de referencia, mas sim copia de refencia
+ 
+ array de duas dimensoes
+ 
+ arraylist
+ 
+ ciclos for while while do
+ 
+ 
+ loop com break, continue...
