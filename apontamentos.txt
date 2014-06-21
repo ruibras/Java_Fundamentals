@@ -642,3 +642,17 @@ array de shirts ver exemplo PDF
  
  
  loop com break, continue...
+*********************************************
+aula 7
+
+overloading tanto pode ser nos metodos como nos construtores ( construtores com varios parametros)
+
+tipos de variaveis
+static?? Final??
+
+construtor por defeito ( ou por omissao) quando não e criado nenhum construotr e cria um por defeiro.
+ chaining the cosntrutors multiplus construptres encadeados
+
+
+
+variaveis da class usase (underscore) ex: _doorOpen 
